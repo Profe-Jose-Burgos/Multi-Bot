@@ -1,0 +1,75 @@
+{"intents": [
+
+    {"tag": "Saludos",
+     "patterns": ["Hola","que tal","buen dia"],
+     "responses": ["Hola en que puedo ayudarte", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+
+    {"tag": "Saludos-dia",
+     "patterns": ["Buenos dias"],
+     "responses": ["Buenos dias en que puedo ayudarte","Como va tu dia, necesitas ayuda en algo?",",Que tal tu dia, puedo ayudarte en algo"],
+     "context": [""]
+    },
+    {"tag": "Saludos-tarde",
+     "patterns": ["Buenas Tardes"],
+     "responses": ["Buenas tardes en que puedo ayudarte","Como va tu tarde, necesitas ayuda en algo?",",Que tal tu tarde, puedo ayudarte en algo"],
+     "context": [""]
+    },
+    {"tag": "Saludos-noche",
+     "patterns": ["Buenas Noches"],
+     "responses": ["Buenas noches en que puedo ayudarte","Como va tu noche, necesitas ayuda en algo?",",Que tal tu noche, puedo ayudarte en algo"],
+     "context": [""]
+    },
+
+
+    {"tag": "despedida",
+     "patterns": ["adios", "chao", "nos vemos", "hasta la proxima"],
+     "responses": ["nos vemos espero verte por aqui de nuevo :)", "hasta la proxima espero verte por aqui de nuevo :)"],
+     "context": [""]
+    },
+    {"tag": "agradecimiento",
+     "patterns": ["Gracias", "Muchas gracias", "Eso fue de ayuda", "impresionante", "Me ayudaste mucho"],
+     "responses": ["Muy feliz de poder ayudar, necesitas algo mas?", "Un placer, si necesitas algo mas aqui me tienes :)"],
+     "context": [""]
+    },  
+
+    {"tag":"citas-asesoria",
+        "patterns":["necesito agendar una cita","quiero agendar una asesoria","prodia pedir una cita?","prodia pedir una asesoria?"],
+        "responses":["No tengo implementada esa funcion, vuelva pronto :("],
+        "context":[""]
+    },
+
+
+    {"tag":"cancelacion",
+        "patterns":["deseo cancelar mi cita","deseo cancelar mi asesoria","podria cancelar mi cita?","podria cancelar mi asesoria?"],
+        "responses":["No tengo implementada esa funcion, vuelva pronto :("],
+        "context":[""]
+    },
+
+    {"tag":"chequeo",
+        "patterns":["Para cuando es mi cita","Para cuando es mi asesoria","cual es la fecha de mi cita","cual es la fecha de mi asesoria"],
+        "responses":["No tengo implementada esa funcion, vuelva pronto :("],
+        "context":[""]
+    },
+
+    {"tag":"precios",
+        "patterns":["cuanto cuesta una asesoria","cuanto cuesta una cita","cuanto seria el total a pagar de una cita"," cuanto seria el total a pagar de unaasesoria"],
+        "responses":["Depende de lo que quieras, pero nos podriamos poner en contacto y cotizar un precio :)"],
+        "context":[""]
+    },
+
+    {"tag":"respuesta",
+        "patterns":["bueno","si","Okey","listo","esta bien","de acuerdo","Ok"],
+        "responses":[":)"],
+        "context":[""]
+    },
+
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Lo siento no puedo entenderte", "podrias repetir?", "No estoy seguro de lo que quieres"],
+    "context": [""]
+    }
+]
+}
+
